@@ -1,4 +1,4 @@
-FROM azul/zulu-openjdk:8
+FROM azul/zulu-openjdk:21
 
 # Install required dependencies
 RUN apt-get update && apt-get install -y wget
